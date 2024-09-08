@@ -4,6 +4,20 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #000000;
+  opacity: 1;
+  background-image: repeating-radial-gradient(
+      circle at 0 0,
+      transparent 0,
+      #000000 40px
+    ),
+    repeating-linear-gradient(#25252555, #252525);
+
+  background-attachment: fixed;
+  background-position: center;
+}
+
 /* Estilos para el navbar */
 .logo {
   width: 100%;
