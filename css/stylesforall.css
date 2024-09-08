@@ -11,17 +11,19 @@
 
 /* Fondo de la barra */
 ::-webkit-scrollbar-track {
-  background: #202020;
+  background: #25252555;
 }
 
 /* Color de la parte deslizante de la barra */
 ::-webkit-scrollbar-thumb {
   background: #000000;
+
+  border-radius: 2px;
 }
 
 /* Efecto al pasar el mouse por encima */
 ::-webkit-scrollbar-thumb:hover {
-  background: #0034a3;
+  background: #009ec5;
 }
 
 body {
